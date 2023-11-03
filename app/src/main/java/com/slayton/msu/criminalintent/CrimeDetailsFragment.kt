@@ -26,7 +26,8 @@ class CrimeDetailsFragment :Fragment() {
             UUID.randomUUID(),
             title = "",
             date = Date(),
-            isSolved = false
+            isSolved = false,
+            requiresPolice = false
         )
     }
 

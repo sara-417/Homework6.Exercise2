@@ -14,7 +14,9 @@ class CrimeListViewModel : ViewModel() {
                 id = UUID.randomUUID(),
                 title ="Crime #$i",
                 date = Date(),
-                isSolved = i % 2 == 0
+                isSolved = i % 2 == 0,
+//                if the crime is not solved, the police are required.
+                requiresPolice = (i + 1) % 2 == 0
             )
             crimes += crime
         }

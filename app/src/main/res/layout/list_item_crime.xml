@@ -17,4 +17,14 @@
         android:layout_height="wrap_content"
         android:text="Crime Date"/>
 
+
+<!--the button's visiblity is defaulted to gone and will be set to visible for the ViewHolder
+        pertaining to crimes that require police intervention-->
+    <Button
+        android:id="@+id/report_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report_crime_button"
+        android:visibility="gone"/>
+
 </LinearLayout>
