@@ -42,7 +42,7 @@ class SeriousCrimeHolder (
                 "${crime.title} clicked!",
                 Toast.LENGTH_SHORT
             ).show()
-
+        }
 //            added an event listener to the reportButton to make a toast notifiying the user that the police were contacted
             binding.reportButton.setOnClickListener {
                 Toast.makeText(
@@ -53,7 +53,7 @@ class SeriousCrimeHolder (
             }
         }
     }
-}
+
 
     class CrimeListAdapter(
         private val crimes: List<Crime>
